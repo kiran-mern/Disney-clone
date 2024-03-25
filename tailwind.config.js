@@ -7,5 +7,6 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-no-scrollbar')  ],
 }
