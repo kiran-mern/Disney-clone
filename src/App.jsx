@@ -1,10 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import Slider from './components/Slider'
 import Production from './components/Production'
+import GenreMovieList from './components/GenreMovieList'
 
 function App() {
 
@@ -13,7 +11,7 @@ function App() {
      <Header/>
      <Slider/>
      <Production/>
-
+     <GenreMovieList/>
     </div>
    
   )
